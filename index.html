@@ -3,9 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospital | Home</title>
+    <meta name="theme-color" content="#f6f8f5">
+    <meta name="description" content="Thoughtful, expert healthcare for every chapter of life. Meet the team and find care at Harborwell Medical Center.">
+    <title>Harborwell Medical Center | Care, made personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/Style.css">
+    <script src="assets/js/scrpit.js" defer></script>
 </head>
 <body>
-    <h1>My Name is Shams Rahman </h1>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home" aria-label="Harborwell Medical Center home">
+                <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M14 5h4v9h9v4h-9v9h-4v-9H5v-4h9z"/></svg></span>
+                <span class="brand-name">harborwell<span>MEDICAL CENTER</span></span>
+            </a>
+            <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+                <span></span><span></span>
+            </button>
+            <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+                <a href="#care">Our care</a>
+                <a href="#about">About</a>
+                <a href="#team">Our doctors</a>
+                <a href="#journal">Health journal</a>
+                <a class="nav-appointment" href="#appointment">Book a visit <span aria-hidden="true">↗</span></a>
+            </nav>
+            <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+                <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.1 15.2A8.5 8.5 0 0 1 8.8 3.9 8.5 8.5 0 1 0 20.1 15.2Z"/></svg>
+                <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+            </button>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero section-pad" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> YOUR HEALTH, IN GOOD HANDS</p>
+                    <h1>Care that puts <span>you</span> first.</h1>
+                    <p class="hero-intro">Good care starts with being heard. Find thoughtful doctors, clear answers, and a team that stays by your side.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#appointment">Find your doctor <span aria-hidden="true">↗</span></a>
+                        <a class="text-link" href="#care">Explore our care <span aria-hidden="true">↓</span></a>
+                    </div>
+                    <div class="hero-proof"><div class="avatar-stack" aria-hidden="true"><img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=80&q=80" alt=""><img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=80&q=80" alt=""><img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=80&q=80" alt=""></div><p><strong>Care from people who care.</strong><br>Meet your neighbors in medicine.</p></div>
+                </div>
+                <div class="hero-visual">
+                    <img class="hero-image" src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1100&q=85" alt="A Harborwell physician ready to help her patients">
+                    <div class="image-caption"><span class="caption-dot"></span><span>Here for all of you</span><span class="caption-divider"></span><span>Since 1988</span></div>
+                    <div class="hero-note"><span class="note-icon" aria-hidden="true">+</span><span><strong>Care, connected.</strong><br>From your first visit to every follow-up.</span></div>
+                </div>
+            </div>
+            <div class="container hero-bottom"><span>Independent care. Stronger community.</span><span class="hero-bottom-line"></span><a href="#care">A better way to feel well <span aria-hidden="true">↓</span></a></div>
+        </section>
+
+        <section class="care-section section-pad" id="care">
+            <div class="container">
+                <div class="section-heading heading-row"><div><p class="eyebrow">CARE THAT CONNECTS</p><h2>Good health has<br><span>many sides.</span></h2></div><p class="heading-note">From everyday checkups to expert specialty care, your team works together around what matters to you.</p></div>
+                <div class="care-grid">
+                    <a class="care-item" href="#appointment"><span class="care-number">01</span><span class="care-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 27s-11-6.3-11-14a6 6 0 0 1 11-3.2A6 6 0 0 1 27 13c0 7.7-11 14-11 14Z"/><path d="M10 16h4l2-4 3 8 2-4h2"/></svg></span><h3>Primary care</h3><p>A familiar face, a listening ear, and a plan that fits your life.</p><span class="item-arrow" aria-hidden="true">↗</span></a>
+                    <a class="care-item" href="#appointment"><span class="care-number">02</span><span class="care-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M11 5v8a5 5 0 0 0 10 0V5M8 5h6m4 0h6M16 18v4a5 5 0 0 0 10 0v-2"/><circle cx="26" cy="17" r="2"/></svg></span><h3>Specialty care</h3><p>Expert answers and connected specialists, all in one place.</p><span class="item-arrow" aria-hidden="true">↗</span></a>
+                    <a class="care-item" href="#appointment"><span class="care-number">03</span><span class="care-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 17h5l3-9 5 17 3-8h6"/><path d="M16 4v3m0 18v3M4 16h3m18 0h3"/></svg></span><h3>Urgent care</h3><p>When it can’t wait, get timely care from a team that knows you.</p><span class="item-arrow" aria-hidden="true">↗</span></a>
+                    <a class="care-item" href="#appointment"><span class="care-number">04</span><span class="care-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M7 25c0-4 3-7 7-7h4c4 0 7 3 7 7M16 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"/><path d="M4 8h3m18 0h3M6 13H3m26 0h-3"/></svg></span><h3>Wellness & prevention</h3><p>Small, thoughtful steps today for a healthier tomorrow.</p><span class="item-arrow" aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section section-pad" id="about">
+            <div class="container about-grid">
+                <div class="about-visual"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1100&q=85" alt="A care team working together in a bright clinical space"><div class="about-stamp"><span>Rooted<br>in care</span><span class="stamp-plus">+</span><span>Since 1988</span></div><span class="about-photo-label">A little more human. A lot more connected.</span></div>
+                <div class="about-copy"><p class="eyebrow">A DIFFERENT KIND OF MEDICAL CENTER</p><h2>Medicine is personal.<br><span>Your care should be, too.</span></h2><p class="about-lead">We believe better health comes from better relationships. That means taking time to listen, making space for your questions, and seeing the whole person behind every appointment.</p><p class="about-detail">Locally rooted since 1988, Harborwell brings primary care, specialists, and support teams together so your care feels less complicated and more like care.</p><a class="text-link text-link-dark" href="#team">Get to know us <span aria-hidden="true">↗</span></a><div class="about-stat-row"><div><strong>35<span>+</span></strong><span>years in our community</span></div><div><strong>42</strong><span>caring specialists</span></div><div><strong>1</strong><span>team, centered on you</span></div></div></div>
+            </div>
+        </section>
+
+        <section class="team-section section-pad" id="team">
+            <div class="container"><div class="section-heading heading-row"><div><p class="eyebrow">PEOPLE MAKE THE DIFFERENCE</p><h2>Meet your care <span>team.</span></h2></div><a class="text-link" href="#appointment">Find the right doctor <span aria-hidden="true">↗</span></a></div>
+                <div class="doctor-grid">
+                    <article class="doctor-card"><div class="doctor-photo"><img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=700&q=85" alt="Dr. Maya Patel"><span class="doctor-specialty">PRIMARY CARE</span></div><div class="doctor-info"><div><h3>Dr. Maya Patel</h3><p>Internal Medicine</p></div><a class="doctor-link" href="#appointment" aria-label="Book an appointment with Dr. Maya Patel">↗</a></div></article>
+                    <article class="doctor-card"><div class="doctor-photo"><img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=700&q=85" alt="Dr. Julian Reyes"><span class="doctor-specialty">CARDIOLOGY</span></div><div class="doctor-info"><div><h3>Dr. Julian Reyes</h3><p>Heart & Vascular Care</p></div><a class="doctor-link" href="#appointment" aria-label="Book an appointment with Dr. Julian Reyes">↗</a></div></article>
+                    <article class="doctor-card"><div class="doctor-photo"><img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=700&q=85" alt="Dr. Lena Brooks"><span class="doctor-specialty">FAMILY MEDICINE</span></div><div class="doctor-info"><div><h3>Dr. Lena Brooks</h3><p>Family Medicine</p></div><a class="doctor-link" href="#appointment" aria-label="Book an appointment with Dr. Lena Brooks">↗</a></div></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="appointment-section section-pad" id="appointment">
+            <div class="container appointment-grid"><div class="appointment-copy"><p class="eyebrow">YOUR NEXT STEP STARTS HERE</p><h2>Let’s get you<br><span>feeling better.</span></h2><p>Tell us a little about what you need. Our team will help you find the right place to start.</p><div class="appointment-contact"><span class="contact-symbol" aria-hidden="true">↗</span><span>Prefer to talk?<br><a href="tel:+15550148300">(555) 014-8300</a></span></div><p class="appointment-hours">MON–FRI, 8 AM–6 PM <span>·</span> SAT, 9 AM–1 PM</p></div>
+                <form class="appointment-form" id="appointment-form"><h3>Request an appointment</h3><p class="form-note">We’ll be in touch to find a time that works.</p><div class="form-fields"><label>Full name<input name="name" type="text" placeholder="Your name" autocomplete="name" required></label><label>Email address<input name="email" type="email" placeholder="you@example.com" autocomplete="email" required></label><label>Area of care<select name="care" required><option value="" disabled selected>Select a service</option><option>Primary care</option><option>Specialty care</option><option>Urgent care</option><option>Wellness & prevention</option></select></label><label>Preferred day<input name="day" type="date" required></label></div><button class="button button-form" type="submit">Request a visit <span aria-hidden="true">↗</span></button><p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p><p class="form-privacy">For emergencies, call 911. Please don’t include private medical information.</p></form>
+            </div>
+        </section>
+
+        <section class="reviews-section section-pad" id="reviews">
+            <div class="container review-layout"><div class="review-heading"><p class="eyebrow">HEARD FROM OUR COMMUNITY</p><h2>Care feels<br><span>better together.</span></h2><div class="review-score"><span aria-label="5 out of 5 stars">★★★★★</span><strong>4.9 / 5</strong><small>From 1,200+ patient reviews</small></div></div><figure class="review-quote"><span class="quote-mark" aria-hidden="true">“</span><blockquote>For the first time, I felt like my doctor had the time to really hear me. Every person I met made a hard week feel a little easier.</blockquote><figcaption><span class="review-avatar">AM</span><span><strong>Alex M.</strong><br>Patient since 2021</span><span class="verified-review">VERIFIED PATIENT</span></figcaption><div class="review-controls" aria-hidden="true"><span class="review-dash review-dash-active"></span><span class="review-dash"></span><span class="review-dash"></span></div></figure></div>
+        </section>
+
+        <section class="journal-section section-pad" id="journal">
+            <div class="container"><div class="section-heading heading-row"><div><p class="eyebrow">A HEALTHIER READ</p><h2>Good things to <span>know.</span></h2></div><a class="text-link" href="#contact">Visit the health journal <span aria-hidden="true">↗</span></a></div>
+                <div class="journal-grid"><article class="journal-card"><a class="journal-image" href="#contact"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=85" alt="A quiet moment outdoors in the morning"><span class="journal-tag">EVERYDAY WELLNESS</span></a><div class="journal-meta"><span>5 MIN READ</span><span>·</span><time datetime="2026-04-14">APR 14, 2026</time></div><h3><a href="#contact">A gentler way to build a morning routine</a></h3><a class="article-link" href="#contact">Read the story <span aria-hidden="true">↗</span></a></article>
+                    <article class="journal-card"><a class="journal-image" href="#contact"><img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=85" alt="Person stretching on a yoga mat"><span class="journal-tag">MOVEMENT</span></a><div class="journal-meta"><span>4 MIN READ</span><span>·</span><time datetime="2026-04-08">APR 08, 2026</time></div><h3><a href="#contact">Small movements, meaningful benefits</a></h3><a class="article-link" href="#contact">Read the story <span aria-hidden="true">↗</span></a></article>
+                    <article class="journal-card"><a class="journal-image" href="#contact"><img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=800&q=85" alt="A colorful, nourishing meal on a table"><span class="journal-tag">NUTRITION</span></a><div class="journal-meta"><span>6 MIN READ</span><span>·</span><time datetime="2026-03-29">MAR 29, 2026</time></div><h3><a href="#contact">Eating well without making it complicated</a></h3><a class="article-link" href="#contact">Read the story <span aria-hidden="true">↗</span></a></article></div>
+            </div>
+        </section>
+
+        <section class="contact-section section-pad" id="contact">
+            <div class="container contact-grid"><div><p class="eyebrow">WE’RE RIGHT AROUND THE CORNER</p><h2>Here when<br><span>you need us.</span></h2><p class="contact-intro">Come by, give us a call, or send a note. We’ll help you find your way.</p></div><div class="contact-details"><div class="contact-detail"><span class="detail-icon" aria-hidden="true">⌖</span><div><span class="detail-label">FIND US</span><p>1200 Harbor Street<br>Portland, OR 97205</p><a href="https://maps.google.com/?q=1200+Harbor+Street+Portland+OR+97205" target="_blank" rel="noreferrer">Get directions ↗</a></div></div><div class="contact-detail"><span class="detail-icon" aria-hidden="true">↗</span><div><span class="detail-label">SAY HELLO</span><p><a href="tel:+15550148300">(555) 014-8300</a><br><a href="mailto:hello@harborwell.example">hello@harborwell.example</a></p></div></div><div class="contact-detail"><span class="detail-icon" aria-hidden="true">◷</span><div><span class="detail-label">OPENING HOURS</span><p>Monday–Friday, 8 am–6 pm<br>Saturday, 9 am–1 pm</p></div></div></div><a class="contact-cta" href="#appointment"><span>Ready when you are. Let’s find your care.</span><span aria-hidden="true">↗</span></a></div>
+        </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M14 5h4v9h9v4h-9v9h-4v-9H5v-4h9z"/></svg></span><span class="brand-name">harborwell<span>MEDICAL CENTER</span></span></a><p>Good care. Good people.<br>Right here in your community.</p><a class="back-top" href="#home">Back to top ↑</a></div><div class="container footer-bottom"><span>© 2026 Harborwell Medical Center</span><span>Privacy · Accessibility · Patient rights</span><span>Independent care, close to home.</span></div></footer>
 </body>
 </html>
